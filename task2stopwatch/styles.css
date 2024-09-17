@@ -1,0 +1,32 @@
+body {
+    background-color: #032B44;
+    background-image: url(stopwatch.png);
+    /* background-repeat: no-repeat;
+    width: auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.display {
+    font-size: 3em;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #a2bcd5;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.btn-group .btn {
+    width: 100px;
+}
+
+#laps {
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#laps .list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
